@@ -160,7 +160,6 @@ function ef_destiny_locator_settings_section_callback() {
 function ef_destiny_locator_options_page() {
     ?>
     <form action='options.php' method='post'>
-        <h2>EF Destiny Locator Settings</h2>
         <?php
         settings_fields('ef_destiny_locator');
         do_settings_sections('ef_destiny_locator');
